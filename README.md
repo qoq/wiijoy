@@ -29,7 +29,8 @@ The Nunchuck's connector has three pins on one side and two pins on the other. B
 - [3] Resistor 10 kOhm 1/8w
 - [1] 5mm LED
 - [1] 10 uF x 16v capacitor 
-- [1] 3.3v voltage reguulator -- STMicro L78L33ACZ or similar, TO92 package
+- [1] 3.3v voltage regulator -- STMicro L78L33ACZ or similar, TO92 package
+- [1] DB9 female connector
 - [1] Programmed PIC16Fxxx Microcontroller and PCB (eBay)
  
 More information: https://github.com/qoq/wiijoy
