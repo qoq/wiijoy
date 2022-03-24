@@ -1,6 +1,8 @@
 # wiijoy
 Wii Nunchuck Classic controller to Commodore Atari ZX Spectrum Kempston Joystick adapter
 
+![pic](https://github.com/qoq/wiijoy/blob/main/pics/p4.jpg)
+
 The WiiJoy adapter supports both genuine and aftermarket Wii Nunchuck or Classic controllers. 
 WiiJoy adapter also support "rapid fire" function (button C on Wii Nunchuck or B,Y,ZL on Wii Classic controller).
 
