@@ -13,7 +13,6 @@ To enable 2-button Atari7800 mode:
 - For Classic: press SELECT to enable 2-button mode, press START to disable it
 
 
-The PCB & programmed MCU or complete DYI kit are available for purchasing on eBay
 
 
 Connecting Wii Nunchuck:
@@ -22,11 +21,13 @@ The Nunchuck's connector has three pins on one side and two pins on the other. B
 
 Testing:
 
-    Plug WiiJoy into a joystick port. The LED should light up.
-    Connect Wii Nunchuck/Classic  to the adapter. The LED should turn off (Controller detected). If the LED stays on, check Nunchuck connection.
-    Press fire (Z). The LED should light up.
-    Press (C) button. The LED should start blinking (this is the "rapid fire" function of the adapter).
+- Plug WiiJoy into a joystick port. The LED should light up.
+- Connect Wii Nunchuck/Classic  to the adapter. The LED should turn off (Controller detected). If the LED stays on, check Nunchuck connection.
+- Press fire (Z). The LED should light up.
+- Press (C) button. The LED should start blinking (this is the "rapid fire" function of the adapter).
 
 More information: https://github.com/qoq/wiijoy
+
+# The PCB & programmed MCU or complete DYI kit are available for purchasing on eBay
 
 Have fun!
