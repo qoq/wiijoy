@@ -28,6 +28,6 @@ Testing:
 
 More information: https://github.com/qoq/wiijoy
 
-# The PCB & programmed MCU or complete DYI kit are available for purchasing on eBay
+### The PCB & programmed MCU or complete DYI kit are available for purchasing on eBay
 
 Have fun!
