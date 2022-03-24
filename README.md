@@ -1,5 +1,5 @@
 # wiijoy
-Wii Nunchuck Classic controller to Commodore Atari ZX Spectrum Kempston Joystick adapter
+Adapter for connecting Wii Nunchuck or Classic controller to Commodore, Atari, ZX Spectrum (Kempston) Joystick port
 
 ![pic](https://github.com/qoq/wiijoy/blob/main/pics/p4.jpg)
 
