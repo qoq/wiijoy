@@ -3,14 +3,21 @@ Adapter for connecting Wii Nunchuck or Classic controller to Commodore, Atari, Z
 
 ![pic](https://github.com/qoq/wiijoy/blob/main/pics/p4.jpg)
 
-The WiiJoy adapter supports both genuine and aftermarket Wii Nunchuck or Classic controllers. 
-WiiJoy adapter also support "rapid fire" function (button C on Wii Nunchuck or B,Y,ZL on Wii Classic controller).
+The WiiJoy adapter supports both genuine and aftermarket Wii Nunchuck or Classic controllers.
+WiiJoy adapter also supports "rapid fire" function (button C on Wii Nunchuck or B,Y,ZL,L on Wii Classic controller).
 
-Beta support is available for Atari 7800 2-button controller.
-The current version of PCB requires 2 jumper wires to connecr DB9 pins 5 and 9 to the MCU (see schematic)
+Accelerometer is supported on the nunchuck controller begnning with version 1.0.5 (released Feb 04,2023)
+- Hold C button while connecting the controller to enable accelerometer mode
+
+
+Beta support is available for Atari 7800 2-button controller:
+The current version of PCB does not have traces connecting DB9 pins 5 and 9 to the MCU -- you must add two jumper wires (see schematic)
+
 To enable 2-button Atari7800 mode:
 - For Nunchuck: Hold Z while connecting the controller
 - For Classic: press SELECT to enable 2-button mode, press START to disable it
+
+Turning 2-button support on is disables the rapid fire function
 
 
 ### Connecting Wii Nunchuck:
@@ -25,7 +32,7 @@ The Nunchuck's connector has three pins on one side and two pins on the other. B
 
 ### Bill of materials
 
-- [1] Resistor 300 Ohm 1/8w
+- [1] Resistor 330 Ohm 1/8w
 - [3] Resistor 10 kOhm 1/8w
 - [1] 5mm LED
 - [1] 10 uF x 16v capacitor 
