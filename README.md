@@ -6,7 +6,7 @@ Adapter for connecting Wii Nunchuck or Classic controller to Commodore, Atari, Z
 The WiiJoy adapter supports both genuine and aftermarket Wii Nunchuck or Classic controllers.
 WiiJoy adapter also supports "rapid fire" function (button C on Wii Nunchuck or B,Y,ZL,L on Wii Classic controller).
 
-Accelerometer is supported on the nunchuck controller begnning with version 1.0.5 (released Feb 04,2023)
+Accelerometer is supported on the nunchuck controller beginning with version 1.0.5 (released Feb 04,2023)
 - Hold C button while connecting the controller to enable accelerometer mode
 
 
