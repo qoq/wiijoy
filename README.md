@@ -6,7 +6,7 @@ Adapter for connecting Wii Nunchuck or Wii Classic controller to Commodore, Atar
 The WiiJoy adapter supports both genuine and aftermarket Wii Nunchuck or Classic controllers.
 WiiJoy adapter also supports "rapid fire" function (button C on Wii Nunchuck or B,Y,ZL,L on Wii Classic controller).
 
-Beginning with version 1.0.6 (released Feb 04,2023), the following features are supported:
+Beginning with version 1.0.6 (released Feb 05, 2023), the following features are supported:
 - Accelerometer support for Nunchuck
 - Up/Down direction swap
 - 2-button fire mode for Atari 7800 (BETA, not tested)
