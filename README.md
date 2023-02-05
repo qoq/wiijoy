@@ -1,24 +1,30 @@
 # wiijoy
-Adapter for connecting Wii Nunchuck or Classic controller to Commodore, Atari, ZX Spectrum (Kempston) joystick port
+Adapter for connecting Wii Nunchuck or Wii Classic controller to Commodore, Atari, ZX Spectrum (Kempston) joystick port
 
 ![pic](https://github.com/qoq/wiijoy/blob/main/pics/p4.jpg)
 
 The WiiJoy adapter supports both genuine and aftermarket Wii Nunchuck or Classic controllers.
 WiiJoy adapter also supports "rapid fire" function (button C on Wii Nunchuck or B,Y,ZL,L on Wii Classic controller).
 
-Accelerometer is supported on the nunchuck controller beginning with version 1.0.5 (released Feb 04,2023)
-- Hold C button while connecting the controller to enable accelerometer mode
+Beginning with version 1.0.6 (released Feb 04,2023), the following features are supported:
+- Accelerometer support for Nunchuck
+- Up/Down direction swap
+- 2-button fire mode for Atari 7800 (BETA, not tested)
 
+Nunchuck configuration:
+- Holding Z while powering on enables 2-button fire mode
+- Holding C while powering on enables accelerometer mode
+- Holding DOWN while powering on swaps up and down direction
 
-Beta support is available for Atari 7800 2-button controller:
+Wii Classic controller configuration:
+- Select(-) button turns on 2-button fire mode
+- Start(+)  button turns on up/down direction swap
+- Home button clears both settings
+
+For Atari 7800 2-button mode:
 The current version of PCB does not have traces connecting DB9 pins 5 and 9 to the MCU -- you must add two jumper wires (see schematic)
 
-To enable 2-button Atari7800 mode:
-- For Nunchuck: Hold Z while connecting the controller
-- For Classic: press SELECT to enable 2-button mode, press START to disable it
-
 Turning 2-button support on is disables the rapid fire function
-
 
 ### Connecting Wii Nunchuck:
 The Nunchuck's connector has three pins on one side and two pins on the other. Be sure to match them to 3 and 2-pin pads on WiiJoy PCB.
