@@ -41,6 +41,9 @@ The Nunchuck's connector has three pins on one side and two pins on the other. B
 - Press fire (Z). The LED should light up.
 - Press (C) button. The LED should start blinking (this is the auto-fire function of the adapter).
 
+Note that the metal "ears" of the pictured DB9 connector may need to be bent or cut to fit on some Atari machines. You can remove metal casing altogether, 
+but you may need to glue two plastic parts of the connector together so they don't fall apart. Alternatively, you can use a different type of DB9 connector.
+
 ### Bill of materials
 
 - [1] Resistor 330 Ohm 1/8w
