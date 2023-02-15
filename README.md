@@ -29,7 +29,7 @@ Current PCB layout does not have traces connecting DB9 pins 5 and 9 to the MCU -
 Turning 2-button support on is disables the auto-fire function
 
 For Atari 2600 paddle controller mode:
-Current PCB layout does not have circutry for this mode. You must add 4 resistors and 2 capacitors (see schematic)
+Current PCB layout does not have circutry for this mode. You must add 4 resistors and 2 capacitors (see https://github.com/qoq/wiijoy/blob/main/pics/schematic_v2.png)
 
 ### Connecting Wii Nunchuck:
 The Nunchuck's connector has three pins on one side and two pins on the other. Be sure to match them to 3 and 2-pin pads on WiiJoy PCB.
@@ -56,8 +56,6 @@ Additional parts required for 2600 paddle controler mode:
 - [2] Resistor 56 kOhm  (approximate value -- might neeed adjustments to calibrate/center paddle on screen)
 - [2] 10 uF x 16v capacitor 
 
-
-More information: https://github.com/qoq/wiijoy
 
 ### The PCB & programmed MCU or complete DYI kit are available for purchasing on eBay
 
